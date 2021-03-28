@@ -28,18 +28,17 @@
     "opis": {
       "type": "richtext"
     },
-    "category": {
-      "type": "string"
-    },
     "subtitle": {
       "type": "string"
     },
-    "kategorie_portfolio": {
+    "kategoria": {
       "type": "enumeration",
       "enum": [
         "www",
         "grafika"
-      ]
+      ],
+      "default": "www",
+      "private": true
     }
   }
 }
