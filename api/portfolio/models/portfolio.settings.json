@@ -39,6 +39,11 @@
       ],
       "default": "www",
       "private": true
+    },
+    "tags": {
+      "collection": "tags",
+      "via": "portfolios",
+      "dominant": true
     }
   }
 }
