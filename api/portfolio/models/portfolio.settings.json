@@ -14,7 +14,7 @@
     "title": {
       "type": "string"
     },
-    "media": {
+    "miniatura": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
