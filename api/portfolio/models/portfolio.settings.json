@@ -33,6 +33,13 @@
     },
     "subtitle": {
       "type": "string"
+    },
+    "kategorie_portfolio": {
+      "type": "enumeration",
+      "enum": [
+        "www",
+        "grafika"
+      ]
     }
   }
 }
