@@ -1,4 +1,4 @@
 const strapi = require('strapi');
 strapi({
-    env: 'development'
+    env: 'build'
 }).start();
