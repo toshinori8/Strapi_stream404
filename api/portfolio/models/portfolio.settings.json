@@ -42,6 +42,13 @@
       "collection": "tags",
       "via": "portfolios",
       "dominant": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "maxLength": 100,
+      "minLength": 4
     }
   }
 }
