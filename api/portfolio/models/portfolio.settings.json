@@ -48,7 +48,8 @@
       "required": true,
       "unique": true,
       "maxLength": 100,
-      "minLength": 4
+      "minLength": 4,
+      "default": "404"
     }
   }
 }
