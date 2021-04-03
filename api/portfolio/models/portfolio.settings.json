@@ -33,7 +33,8 @@
       "type": "enumeration",
       "enum": [
         "www",
-        "grafika"
+        "grafika",
+        "logo"
       ],
       "default": "www",
       "private": true
