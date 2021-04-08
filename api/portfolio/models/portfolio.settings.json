@@ -51,6 +51,9 @@
       "maxLength": 100,
       "minLength": 4,
       "default": "404"
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
