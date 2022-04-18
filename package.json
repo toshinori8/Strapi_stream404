@@ -9,8 +9,8 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
+    "caniuse-lite": "^1.0.30001332",
     "knex": "<0.20.0",
     "mysql": "^2.18.1",
     "slugify": "^1.5.0",
@@ -26,7 +26,7 @@
     "strapi-utils": "3.4.2"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Adam Karski"
   },
   "strapi": {
     "uuid": "c9f21fa3-d0ad-467d-92f6-99b2d1e2b615"

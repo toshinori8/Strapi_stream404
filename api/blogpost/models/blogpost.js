@@ -5,17 +5,17 @@ const slugify = require('slugify');
  * to customize this model
  */
 
- module.exports = {
-    lifecycles: {
-      beforeCreate: async (data) => {
-        if (data.title) {
-          data.slug = slugify(data.title);
-        }
-      },
-      beforeUpdate: async (params, data) => {
-        if (data.title) {
-          data.slug = slugify(data.title);
-        }
-      },
+module.exports = {
+  lifecycles: {
+    beforeCreate: async (data) => {
+      if (data.title) {
+        data.slug = slugify(data.title);
+      }
     },
-  };
+    beforeUpdate: async (params, data) => {
+      if (data.title) {
+        data.slug = slugify(data.title);
+      }
+    },
+  },
+};
