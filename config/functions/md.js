@@ -9,7 +9,6 @@ const defaults = {
     breaks: true
   }
 };
-
 class StrapiMarkdown {
   constructor(
     model,
