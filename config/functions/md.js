@@ -1,3 +1,4 @@
+
 const defaults = {
   types: {
     standard: ['richtext'],
@@ -9,7 +10,12 @@ const defaults = {
     breaks: true
   }
 };
+
+
 class StrapiMarkdown {
+  // require marked from 'node_modules/marked/marked.min.js';
+  //const marked = require('marked');
+
   constructor(
     model,
     types = defaults.types,
@@ -28,7 +34,8 @@ class StrapiMarkdown {
     }
 
     if (options && options.constructor === Object) {
-      this.marked = require('marked');
+      this.marked =  require('../../node_modules/marked/marked.min.js');
+      //this.marked = require('marked');
       this.marked.setOptions(options);
     } else {
       throw new Error('`options` must be valid object');
