@@ -10,7 +10,6 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30001332",
     "knex": "<0.20.0",
     "mysql": "^2.18.1",
     "slugify": "^1.5.0",

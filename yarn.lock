@@ -1315,39 +1315,12 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@toast-ui/editor@^2.5.4":
-  version "2.5.4"
-  resolved "https://registry.npmjs.org/@toast-ui/editor/-/editor-2.5.4.tgz"
-  integrity sha512-XsuYlPQxhec9dHQREFAigjE4enHSuGMF7D0YQ6wW7phmusvAu0FnJfZUPjJBoU/GKz7WP5U6fKU9/P+8j65D8A==
-  dependencies:
-    "@types/codemirror" "0.0.71"
-    codemirror "^5.48.4"
-
-"@toast-ui/react-editor@^2.1.2":
-  version "2.5.4"
-  resolved "https://registry.npmjs.org/@toast-ui/react-editor/-/react-editor-2.5.4.tgz"
-  integrity sha512-XCy+hLtoGKB5Q+2CEh+iXahaeocHAmAo+EHwEIBJlIICPkqTBO0gg1LqMsw/1Xe8H2Xjp3im8Th6XHxkFQIPSg==
-  dependencies:
-    "@toast-ui/editor" "^2.5.4"
-
 "@types/bson@*":
   version "4.0.3"
   resolved "https://registry.npmjs.org/@types/bson/-/bson-4.0.3.tgz"
   integrity sha512-mVRvYnTOZJz3ccpxhr3wgxVmSeiYinW+zlzQz3SXWaJmD1DuL05Jeq7nKw3SnbKmbleW5qrLG5vdyWe/A9sXhw==
   dependencies:
     "@types/node" "*"
-
-"@types/codemirror@0.0.71":
-  version "0.0.71"
-  resolved "https://registry.npmjs.org/@types/codemirror/-/codemirror-0.0.71.tgz"
-  integrity sha512-b2oEEnno1LIGKMR7uBEsr40al1UijF1HEpRn0+Yf1xOLl24iQgB7DBpZVMM7y54G5wCNoclDrRO65E6KHPNO2w==
-  dependencies:
-    "@types/tern" "*"
-
-"@types/estree@*":
-  version "0.0.51"
-  resolved "https://registry.npmjs.org/@types/estree/-/estree-0.0.51.tgz"
-  integrity sha512-CuPgU6f3eT/XgKKPqKd/gLZV1Xmvf1a2R5POBOGQa6uv82xpls89HU5zKeVoyR8XzHd1RGNOlQlvUe3CFkjWNQ==
 
 "@types/formidable@^1.0.31":
   version "1.2.1"
@@ -1433,13 +1406,6 @@
   version "0.16.1"
   resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.1.tgz"
   integrity sha512-EaCxbanVeyxDRTQBkdLb3Bvl/HK7PBK6UJjsSixB0iHKoWxE5uu2Q/DgtpOhPIojN0Zl1whvOd7PoHs2P0s5eA==
-
-"@types/tern@*":
-  version "0.23.4"
-  resolved "https://registry.npmjs.org/@types/tern/-/tern-0.23.4.tgz"
-  integrity sha512-JAUw1iXGO1qaWwEOzxTKJZ/5JxVeON9kvGZ/osgZaJImBnyjyn0cjovPsf6FNLmyGY8Vw9DoXZCMlfMkMwHRWg==
-  dependencies:
-    "@types/estree" "*"
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
@@ -2740,7 +2706,7 @@ code-point-at@^1.0.0:
   resolved "https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
 
-codemirror@^5.48.4, codemirror@^5.59.0:
+codemirror@^5.59.0:
   version "5.60.0"
   resolved "https://registry.npmjs.org/codemirror/-/codemirror-5.60.0.tgz"
   integrity sha512-AEL7LhFOlxPlCL8IdTcJDblJm8yrAGib7I+DErJPdZd4l6imx8IMgKK3RblVgBQqz3TZJR4oknQ03bz+uNjBYA==
@@ -6255,11 +6221,6 @@ markdown-it@^11.0.1:
     mdurl "^1.0.1"
     uc.micro "^1.0.5"
 
-marked@^2.0.0:
-  version "2.1.3"
-  resolved "https://registry.npmjs.org/marked/-/marked-2.1.3.tgz"
-  integrity sha512-/Q+7MGzaETqifOMWYEA7HVMaZb4XbcRfaOzcSsHZEith83KGlvaSG33u0SKu89Mj5h+T8V2hM+8O45Qc5XTgwA==
-
 match-sorter@^4.0.2:
   version "4.2.1"
   resolved "https://registry.npmjs.org/match-sorter/-/match-sorter-4.2.1.tgz"
@@ -8539,11 +8500,6 @@ safe-buffer@5.2.1, safe-buffer@>=5.1.0, safe-buffer@^5.0.1, safe-buffer@^5.1.0, 
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz"
   integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
 
-safe-flat@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.npmjs.org/safe-flat/-/safe-flat-2.0.2.tgz"
-  integrity sha512-4plwd0jT25AB/gnVhEsjM9dt4wOZhp3Lk8xOmJ8tW8niJ2gB/QSKSvhqVY8zFQukAnPJhvn8BNc8mCSZxoVQ+A==
-
 safe-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/safe-regex/-/safe-regex-1.1.0.tgz"
@@ -9355,14 +9311,6 @@ strapi-helper-plugin@3.4.2:
     styled-components "^5.0.0"
     whatwg-fetch "^3.5.0"
 
-strapi-markdown-parser@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/strapi-markdown-parser/-/strapi-markdown-parser-0.2.2.tgz#0aeb798d7ca51ccfc886f2e017fdc50d2b547100"
-  integrity sha512-pLSD3/UBQnzeoKOpZGKA1mNkMGKsw1b/GrX/NihRoFCk+H5z8RboPHCRHeMb6wJG2TYmYRNKD3byqvy/G81YWg==
-  dependencies:
-    marked "^2.0.0"
-    safe-flat "^2.0.2"
-
 strapi-plugin-content-manager@3.4.2:
   version "3.4.2"
   resolved "https://registry.npmjs.org/strapi-plugin-content-manager/-/strapi-plugin-content-manager-3.4.2.tgz"
@@ -9516,13 +9464,6 @@ strapi-plugin-users-permissions@3.4.2:
     strapi-helper-plugin "3.4.2"
     strapi-utils "3.4.2"
     uuid "^3.1.0"
-
-strapi-plugin-wysiwyg-toastui@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/strapi-plugin-wysiwyg-toastui/-/strapi-plugin-wysiwyg-toastui-0.1.5.tgz"
-  integrity sha512-hkNjwlxfrPM3NS9ANyk2oxu9j0Nb5/Yv2y8dOykyrC6Ipp4fmV0Es0xW7SBcZMMD6z4mHmO3S5Sx5YeFIvGWxw==
-  dependencies:
-    "@toast-ui/react-editor" "^2.1.2"
 
 strapi-provider-email-sendmail@3.4.2:
   version "3.4.2"
